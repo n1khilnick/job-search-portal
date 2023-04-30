@@ -48,12 +48,12 @@
 ```
 
 * Update Jobs by Job Type
-```http
+```*.sh-session
   http://localhost:8080/jobs/update/{id}/{jobType}
 ```
 
 * Delete Jobs by ID
-```http
+```*.sh-session
   http://localhost:8080/jobs/delete/{id}
 ```
 
@@ -72,6 +72,6 @@ Used Iterable<Jobs> to store the User type object.
 
 ## Project Summary
 In this project I performed CRUD operation like add user,get user,delete user and update user.<br/>
-I had also performed validation on entity fields by using various validations annotations like @NotNull, @NotEmpty, @NotBlank, @Min, @Max, @Size, @Email and @Pattern on the fields.
-Used interface CrudRepository class for generic CRUD inbuilt operations like save,saveAll,updateById, etc.
-Used our own custom finder methods and wrote operations using custom queries.
+I had also performed validation on entity fields by using various validations annotations like @NotNull, @NotEmpty, @NotBlank, @Min, @Max, @Size, @Email and @Pattern on the fields.<br/>
+Also used interface CrudRepository class for generic CRUD inbuilt operations like save,saveAll,updateById, etc.<br/>
+Created and used my own custom finder methods and wrote operations using custom queries.<br/>
