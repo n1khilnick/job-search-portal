@@ -68,10 +68,10 @@
 * Used **@Repository** annotation is used to indicate that the class provides the mechanism for storage, retrieval, search, update and delete operation on objects.
 
 ## Data Structure Used
-Used Iterable<Jobs> to store the User type object.
+* Used Iterable<Jobs> to store the Jobs type object.
 
 ## Project Summary
-In this project I performed CRUD operation like add user,get user,delete user and update user.<br/>
-I had also performed validation on entity fields by using various validations annotations like @NotNull, @NotEmpty, @NotBlank, @Min, @Max, @Size, @Email and @Pattern on the fields.<br/>
-Also used interface CrudRepository class for generic CRUD inbuilt operations like save,saveAll,updateById, etc.<br/>
-Created and used my own custom finder methods and wrote operations using custom queries.<br/>
+* In this project I performed CRUD operation like add user,get user,delete user and update user.<br/>
+* I had also performed validation on entity fields by using various validations annotations like @NotNull, @NotEmpty, @NotBlank, @Min, @Max, @Size, @Email and @Pattern on the fields.<br/>
+* Also used interface CrudRepository class for generic CRUD inbuilt operations like save,saveAll,updateById, etc.<br/>
+* Created and used my own custom finder methods and wrote operations using custom queries.<br/>
