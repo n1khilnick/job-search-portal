@@ -13,7 +13,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table
-@Entity
+    @Entity
 public class Jobs {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

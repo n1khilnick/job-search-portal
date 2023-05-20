@@ -53,6 +53,7 @@ public class JobService {
         }
     }
 
+
     @Transactional
     public String modifyJobTypeById(Long id, JobType jobType) {
         if(id == null && jobType ==null) return  null;
